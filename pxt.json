@@ -1,7 +1,7 @@
 {
-    "name": "MakerBit-IR-Receiver",
+    "name": "OSOYOO-IR-Receiver",
     "version": "1.5.14",
-    "description": "MakeCode extension for Keyestudio Infrared Wireless Module Kit",
+    "description": "MakeCode extension for OSOYOO Infrared Wireless Module Kit",
     "license": "MIT",
     "dependencies": {
         "core": "*",
