@@ -22,7 +22,7 @@
   "IrButton.Up|block": "▲",
   "IrButtonAction.Pressed|block": "pressed",
   "IrButtonAction.Released|block": "released",
-  "IrProtocol.Keyestudio|block": "Keyestudio",
+  "IrProtocol.OSOYOO|block": "OSOYOO",
   "IrProtocol.NEC|block": "NEC",
   "makerbit.connectIrReceiver|block": "connect IR receiver at pin %pin and decode %protocol",
   "makerbit.irButtonCode|block": "IR button code %button",
@@ -31,7 +31,7 @@
   "makerbit.onIrButton|block": "on IR button | %button | %action",
   "makerbit.onIrDatagram|block": "on IR datagram received",
   "makerbit.wasIrDataReceived|block": "IR data was received",
-  "makerbit|block": "MakerBit",
-  "{id:category}Makerbit": "Makerbit",
+  "makerbit|block": "OSOYOO_BlackIR_V3",
+  "{id:category}Makerbit": "OSOYOO_BlackIR_V3",
   "{id:subcategory}IR Receiver": "IR Receiver"
 }

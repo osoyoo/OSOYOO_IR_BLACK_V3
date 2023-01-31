@@ -1,4 +1,4 @@
-// MakerBit blocks supporting a Keyestudio Infrared Wireless Module Kit
+// OSOYOO_BlackIR_V3 blocks supporting a OSOYOO Infrared Wireless Module Kit
 // (receiver module+remote controller)
 
 const enum IrButton {
@@ -54,14 +54,14 @@ const enum IrButtonAction {
 }
 
 const enum IrProtocol {
-  //% block="Keyestudio"
+  //% block="OSOYOO"
   Keyestudio = 0,
   //% block="NEC"
   NEC = 1,
 }
 
-//% color=#0fbc11 icon="\u272a" block="MakerBit"
-//% category="MakerBit"
+//% color=#0fbc11 icon="\uf1eb" block="OSOYOO_BlackIR_V3"
+//% category="OSOYOO_BlackIR_V3"
 namespace makerbit {
   let irState: IrState;
 
