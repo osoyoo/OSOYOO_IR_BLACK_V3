@@ -55,7 +55,7 @@ const enum IrButtonAction {
 
 const enum IrProtocol {
   //% block="OSOYOO"
-  Keyestudio = 0,
+  OSOYOO = 0,
   //% block="NEC"
   NEC = 1,
 }
@@ -104,9 +104,9 @@ namespace makerbit {
 
     if (irState.bitsReceived <= 8) {
       irState.hiword = (irState.hiword << 1) + bit;
-      if (irState.protocol === IrProtocol.Keyestudio && bit === 1) {
+      if (irState.protocol === IrProtocol.OSOYOO && bit === 1) {
         // recover from missing message bits at the beginning
-        // Keyestudio address is 0 and thus missing bits can be detected
+        // OSOYOO address is 0 and thus missing bits can be detected
         // by checking for the first inverse address bit (which is a 1)
         irState.bitsReceived = 9;
         irState.hiword = 1;
@@ -230,7 +230,7 @@ namespace makerbit {
   /**
    * Connects to the IR receiver module at the specified pin and configures the IR protocol.
    * @param pin IR receiver pin, eg: DigitalPin.P0
-   * @param protocol IR protocol, eg: IrProtocol.Keyestudio
+   * @param protocol IR protocol, eg: IrProtocol.OSOYOO
    */
   //% subcategory="IR Receiver"
   //% blockId="makerbit_infrared_connect_receiver"
