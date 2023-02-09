@@ -19,13 +19,13 @@ const enum IrButton {
   //% block="8"
   Number_8 = 0xa8,
   //% block="9"
-  Number_9 = 0x9,
+  Number_9 = 0x90,
   //% block="*"
   Star = 0x68,
   //% block="0"
   Number_0 = 0x98,
   //% block="#"
-  Hash = 0xb,
+  Hash = 0xb0,
   //% block="any"
   Any = -1,
   //% block="▲"
